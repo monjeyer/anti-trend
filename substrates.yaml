@@ -1,0 +1,85 @@
+# The Anti-Trend Report — substrate taxonomy
+# 5 enduring human needs that carry cultural trends
+
+substrates:
+  connection:
+    name: Connection
+    number: "01"
+    tagline: How we find each other when the old containers break
+    definition: >
+      The enduring need for belonging, intimacy, and shared presence — for being
+      witnessed by another human being in a way a screen cannot replicate.
+    broken_container: Third spaces (cafés, bars, churches, bowling leagues); alcohol-based networking
+    new_container: Run clubs, pickleball, sweatworking, sober bars, book clubs, dinner parties
+    color: "#C65F3E"
+    pull_quote:
+      text: The opposite of addiction is not sobriety. It is human connection.
+      author: Johann Hari
+
+  coping:
+    name: Coping
+    number: "02"
+    tagline: Nervous-system infrastructure for an overwhelming century
+    definition: >
+      The enduring need to metabolize uncertainty, anxiety, and overwhelm — to find
+      a reliable way to calm a nervous system that is constantly being asked to
+      process more than it evolved to handle.
+    broken_container: Religious ritual, steady employment, the assumption tomorrow looks like today
+    new_container: Meditation apps, weighted blankets, sourdough, cozy gaming, ketamine therapy, bed rotting
+    color: "#2E4373"
+    pull_quote:
+      text: Almost everything will work again if you unplug it for a few minutes — including you.
+      author: Anne Lamott
+
+  agency:
+    name: Agency
+    number: "03"
+    tagline: Authorship over a life the systems can't be trusted with
+    definition: >
+      The enduring need to feel authorship over one's own life — to act on the world
+      rather than be acted upon by it. Especially when large systems feel rigged,
+      indifferent, or quietly hostile.
+    broken_container: Trust in institutions, the post-war social contract, faith in the industrial food system
+    new_container: Etsy, Substack, Great Resignation, raw milk, seed oil discourse, homesteading
+    color: "#A14A26"
+    pull_quote:
+      text: I would rather be ruined than changed.
+      author: W. H. Auden
+
+  vitality:
+    name: Vitality
+    number: "04"
+    tagline: The body as the thing that has to still work
+    definition: >
+      The enduring need to feel embodied, energized, and alive in a body that works —
+      to not be sick, not be tired, not be ambiently unwell. The most bedrock of the
+      five, and the most reliable to commodify.
+    broken_container: Faith in the medical establishment, industrial food system, the "exercise is enough" frame
+    new_container: CrossFit, Oura/Whoop, cold plunge, Ozempic, beef tallow, raw milk, longevity clinics
+    color: "#4A6B3E"
+    pull_quote:
+      text: You are allowed to live in a body that works. Everything else can be rearranged around that.
+      author: found on a gym chalkboard, 2024
+
+  status:
+    name: Status
+    number: "05"
+    tagline: Becoming legible to your tribe without having to explain yourself
+    definition: >
+      The enduring need to be legible to one's tribe — to signal, without having to
+      explain, who you are, what you value, and whose approval you care about. The
+      oldest enduring need in marketing.
+    broken_container: Mass-media as universal signaling layer, the middle class as stable identity container
+    new_container: Quiet luxury, Labubu, Sprinter vans, Stanley cups, dumbphones as reverse-status
+    color: "#8F6E24"
+    pull_quote:
+      text: Trendy is the last stage before tacky.
+      author: Karl Lagerfeld
+
+# Methodology (see index.html "Method" section for longer version)
+method:
+  diagnostic_order:
+    - What broke? (historic container that degraded or lost legitimacy)
+    - What enduring need got rerouted? (primary substrate + up to 2 secondary co-drivers)
+    - What new container is carrying it? (is it serving the need or only signaling it?)
+  then: Only after those three questions do we ask what the trend looks like. Aesthetic comes last.
