@@ -22,6 +22,8 @@ The editorial content — the five substrates, the 54 mapped trends, the three-q
 
 ## How to get it on your machine
 
+**If you haven't used GitHub before, a quick primer.** A "repo" (short for repository) is basically a shared folder of files that lives online at github.com. Clicking **Fork** makes you your own copy of that folder, which you can edit freely without affecting the original — it's like duplicating a Google Doc so you can mark it up without touching the one someone else shared with you. "Cloning" just means downloading your copy to your own laptop so you can actually open and edit the files locally. All three words sound more technical than they are — the whole motion is: **copy → download → open.**
+
 1. On the GitHub repo page, click **Fork** in the top right. You now have your own copy at `github.com/YOUR-USERNAME/anti-trend`.
 2. In your terminal, clone it:
    ```bash
