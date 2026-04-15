@@ -36,13 +36,20 @@ Only then ask what the trend looks like. Aesthetic comes last.
 
 ```
 anti-trend/
-├── index.html         # The site
-├── style.css          # All styling
-├── script.js          # Timeline rendering, scroll reveal, data
-├── substrates.yaml    # Substrate taxonomy (data mirror)
+├── index.html             # The site
+├── style.css              # All styling
+├── script.js              # Timeline rendering, scroll reveal, substrate & trend data
+├── substrates.yaml        # Substrate taxonomy (data mirror)
 ├── data/
-│   └── trends.json    # 50+ trends mapped 2016—2026
-├── deploy.sh          # Rsync to meyer.land/anti-trend
+│   └── trends.json        # 50+ trends mapped 2016—2026
+├── .claude/
+│   └── skills/            # Claude Code skills specific to this project
+│       ├── add-trend.md       # classify and add new trends to the timeline
+│       ├── substrate-check.md # run a candidate trend through the diagnostic
+│       └── deploy-site.md     # walk through deploy options
+├── CLAUDE.md              # Project-level context auto-loaded by Claude Code
+├── HANDOVER.md            # Welcome + how-to for collaborators
+├── DEPLOY.md              # GitHub Pages / Netlify / Vercel deploy instructions
 └── README.md
 ```
 
@@ -57,11 +64,7 @@ python3 -m http.server 8000
 
 ## Deploy
 
-```bash
-./deploy.sh
-```
-
-Rsyncs to `meyer.land/anti-trend` via the Digital Ocean droplet. Requires `~/.ssh/meyerland_new`.
+See [`DEPLOY.md`](DEPLOY.md) for three options: GitHub Pages (free, git-based), Netlify Drop (30-second drag-and-drop), or Vercel. No server maintenance required for any of them.
 
 ## What this is not (yet)
 

@@ -1,6 +1,20 @@
+# Private deploy scripts (not for forks)
+.deploy/
+
+# macOS
 .DS_Store
+
+# Node (if we ever add a build step)
 node_modules/
+
+# Logs
 *.log
+
+# Env files (never commit)
 .env
+.env.local
+.env.*.local
+
+# Editor folders
 .vscode/
 .idea/
